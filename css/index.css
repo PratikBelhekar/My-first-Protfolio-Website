@@ -3,11 +3,11 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border:  5px inset blue;
-  transition: width 2s, height 2s, transform 2s;
+  border:  5px outset blue;
+  transition: width 2s, height 2s, transform 1s;
 }
 
-img:hover{
+img.img-ani:hover{
   width: 300px;
   height: 300px;
   transform: rotate(360deg);
@@ -16,4 +16,45 @@ img:hover{
 
 h1{
   color: blue;
+}
+.navigation{
+  background-color: #333;
+  height: 80px;
+
+}
+.logo{
+  float: left;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+.navigation ul{
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: inline-block;
+}
+.navigation li{
+  display: inline;
+
+
+}
+
+.navigation ul li a{
+  text-align: center;
+  display: inline-block;
+  color: white;
+  padding: 28px 28px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.navigation ul li a:hover{
+  background: #111;
+}
+
+.active{
+  background-color: DodgerBlue;
+  color: white;
 }
