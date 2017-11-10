@@ -11,21 +11,18 @@ img.img-ani:hover{
   width: 300px;
   height: 300px;
   transform: rotate(360deg);
-
 }
 
-h1{
-  color: blue;
-}
+
 .navigation{
   background-color: #333;
-  height: 80px;
+  height: 110px;
 
 }
 .logo{
   float: left;
   margin-left: 80px;
-  margin-bottom: 30px;
+
 }
 .navigation ul{
   float: right;
@@ -37,15 +34,13 @@ h1{
 }
 .navigation li{
   display: inline;
-
-
 }
 
 .navigation ul li a{
   text-align: center;
   display: inline-block;
   color: white;
-  padding: 28px 28px;
+  padding: 42px 42px;
   margin: 0;
   text-decoration: none;
 }
@@ -57,4 +52,23 @@ h1{
 .active{
   background-color: DodgerBlue;
   color: white;
+}
+.bgimg{
+  position:relative;
+}
+.bgimg img{
+  height:auto;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
 }
