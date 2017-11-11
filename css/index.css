@@ -1,3 +1,6 @@
+body{
+  margin-top: 70px;
+}
 .img-style{
   margin-top: 50px;
   width: 150px;
@@ -11,30 +14,31 @@ img.img-ani:hover{
   width: 300px;
   height: 300px;
   transform: rotate(360deg);
+
 }
 
+h1{
+  color: blue;
+}
+.navigation{
+  background-color: #333;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
 .logo{
   float: left;
   margin-left: 80px;
-  margin-top: 5px;
-}
-.logo p{
-  font-stretch: expanded;
+  margin-top: 13px;
 }
 .logo a{
-  color:lightblue;
-  font-size: 20px;
   text-decoration: none;
-    display: inline-block;
-    padding: 5px;
-    font-stretch: expanded;
+  color: powderblue;
+  margin-top: 5px;
+  margin-left: 10px;
 }
-
-.navigation{
-  background-color: #333;
-  height: 55px;
-  }
-
 .navigation ul{
   float: right;
   list-style-type: none;
@@ -42,7 +46,6 @@ img.img-ani:hover{
   padding: 0;
   background-color: #333;
   display: inline-block;
-
 }
 .navigation li{
   display: inline;
@@ -52,7 +55,7 @@ img.img-ani:hover{
   text-align: center;
   display: inline-block;
   color: white;
-  padding: 15px 16px;
+  padding: 28px 28px;
   margin: 0;
   text-decoration: none;
 }
@@ -62,25 +65,11 @@ img.img-ani:hover{
 }
 
 .active{
-  background-color: DodgerBlue;
+  background-color: powderblue;
   color: white;
 }
-.bgimg{
-  position:relative;
-}
-.bgimg img{
-  height:auto;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  opacity: 0.7;
-    filter: alpha(opacity=50);
-}
 
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-}
+.bgimg img{
+  width: 100%;
+  height: 600px
+  }
