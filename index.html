@@ -8,21 +8,23 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
      <link rel="stylesheet" href="css/index.css">
+    
+     </script>
    </head>
    <body>
 <!--Defining Structure-->
 
   <!--Menu-->
   <div id="home">
-      <div class="navigation" >
+      <div class="navigation">
             <div class="logo">
                 <img  src="img/pratikbelhekar_logo1.jpg" alt="Pratik Belhekar Web Developer Logo" width="50" height="50">
                 <a href="#home">PRATIK BELHEKAR</a>
             </div>
 
-            <ul>
-              <li><a href="#home" class="active">Home</a></li>
-              <li><a href="#about">About</a></li>
+            <ul id="nav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about" >About</a></li>
               <li><a href="#protfolio">Protfolio</a></li>
               <li><a href="#contact">Contact</a></li>
               <li><a href="img/me.jpg" download="PratikBelhekarResume">Resume</a></li>
@@ -116,11 +118,22 @@ travel client in Pune, India. </pre>
 
 
 <!--Contact-->
-    <div class="about" id="contact">
-        <h2>contact</h2>
-        <h2>contact</h2>
-    </div>
+    <div class="contact" id="contact">
+      <div class="flex-container" >
+        <div class="heading">
+          <h1>GET IN TOUCH</h1><hr>
+        </div>
+        <div class="contact-form">
+          <form class="" action="mailto:pratikbelhekar@gmail.com" method="post" encrypt="text/plain">
+            <input type="text" name="firstname" value="firstname" placeholder="Your Name"><br>
+            <input type="text" name="lastname" value="lastname" placeholder="Your Email-id"><br>
+            <textarea name="msg" rows="5" cols="50" placeholder="Message"></textarea>
+            <input type="submit" name="Send" value="Send">
+          </form>
+        </div>
+      </div>
 
+      <footer>Pratik Belhekar © 2017</footer>
 
         <script src="https://use.fontawesome.com/dc379de13e.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
