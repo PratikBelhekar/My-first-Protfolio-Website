@@ -96,7 +96,7 @@ h1{
 }
 
 .flex-container div  {
-
+  
   background-color: #f1f1f1;
   margin:50px;
 
@@ -119,6 +119,8 @@ label{
   justify-content: space-around;
   align-content: flex-end;
   flex-wrap: wrap;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 #protfolio .flex-container .container{
