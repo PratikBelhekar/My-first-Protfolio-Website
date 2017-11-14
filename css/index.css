@@ -82,7 +82,32 @@ h1{
   transform: translate(-50%, -50%);
   font-size: 18px;
 }
+.social-center {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: white;
+}
+.fa{
+  color: white;
+  width: 100%;
+  padding: 5px;
+}
 
+.social{
+  background-color: Transparent ;
+  border: solid 3px white;
+  border-radius: 2px;
+
+}
+.social:hover{
+  background-color:blue;
+}
+.social a:hover{
+  color:black;
+}
 .flex-container{
   justify-content: center;
   display: flex;
